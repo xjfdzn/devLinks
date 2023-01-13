@@ -8,17 +8,17 @@
 
 :root {
     --text-color: white;
-    --bg-url: url(/assets/darkmode.jpg);
+    --bg-url: url(./assets/darkmode.jpg);
     --stroke-color: rgba(255, 255, 255, 0.5);
     --surface-color: rgba(255, 255, 255, 0.05);
     --surface-color-hover: rgba(0, 0, 0, 0.02);
     --highlight-color: rgba(255, 255, 255, 0.2);
-    --switch-bg-url: url(/assets/moon-stars.svg)
+    --switch-bg-url: url(./assets/moon-stars.svg)
 }
 
 .light {
     --text-color: black;
-    --bg-url: url(/assets/lightmode.jpg);
+    --bg-url: url(./assets/lightmode.jpg);
     --stroke-color: rgba(0, 0, 0, 0.5);
     --surface-color: rgba(0, 0, 0, 0.05);
     --surface-color-hover: rgba(0, 0, 0, 0.02);
@@ -185,10 +185,10 @@ footer p a {
 
 @media (min-width:700px) {
     :root {
-        --bg-url: url(/assets/desktop.jpg);
+        --bg-url: url(./assets/desktop.jpg);
     }
     .light {
-        --bg-url: url(/assets/desktoplight.jpg);
+        --bg-url: url(./assets/desktoplight.jpg);
     }
 }
 
